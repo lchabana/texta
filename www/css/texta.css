@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+#screen {
+  height: 100%;
+  background-image: url(../www/img/backico.jpg);
+  background-size: 6px 6px;
+}
+
+#topbar {
+  background-color: #004080;
+  color: White;
+  height: 60px;
+}
+
+#main {
+  padding-top: 0px;
+}
+
+#intro {
+  min-height: 620px;
+  padding: 50px 0;
+  text-align: center;
+}
+#intro input[type=text] {
+  width: 90%;
+  height: 36px;
+  margin: 0 auto 20px auto;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+}
+#intro .w3-btn {
+  border-radius: 5px;
+  width: 80px;
+  background-color: #004080;
+  color: White;
+}
+
+#recent {
+  background-color: transparent;
+}
+#recent .useritem {
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  padding: 1%;
+  margin-bottom: 2px;
+  display: block;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  background-color: white;
+}
+#recent .useritem span {
+  width: 75%;
+  display: block;
+  padding: 0 0 0 2%;
+}
+
+#nametab {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 10px 2% 0 2%;
+}
+
+#chatbox .chatbtns a {
+  color: #004080;
+  width: 39%;
+  height: 36px;
+  display: inline-block;
+  padding: 5px 0 0 10px;
+  margin-right: 4px;
+}
+
+/*# sourceMappingURL=texta.css.map */
