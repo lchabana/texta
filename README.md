@@ -1,2 +1,2 @@
 # texta
-A simple texting message
+A simple communication mobile app
