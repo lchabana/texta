@@ -1,0 +1,64 @@
+$primarycolor: rgb(0,64,128);
+$backcolor: white;
+
+body { background-color: $backcolor; }
+
+a { text-decoration: none; }
+
+#screen { height: 100%;
+    background-image: url(../www/img/backico.jpg);
+    background-size: 6px 6px; }
+
+#topbar { background-color: $primarycolor;
+	color: White;
+    height: 60px; }
+
+#main { padding-top: 0px; }
+
+#intro { min-height: 620px;
+	padding: 50px 0;
+	text-align: center;
+	input[type=text] {
+		width: 90%;
+		height: 36px;
+		margin: 0 auto 20px auto;
+		border-radius: 5px;
+		border: 1px solid rgb(205,205,205);
+	}
+	.w3-btn {
+		border-radius: 5px;
+		width: 80px;
+		background-color: rgb(0,64,128);
+		color: White; }
+}
+
+#recent { background-color: transparent;
+	.useritem {
+		width: 100%;
+		height: auto;
+		min-height: 60px;
+		padding: 1%;
+		margin-bottom: 2px;
+		display: block;
+		border: 1px solid rgb(235,235,235);
+		border-radius: 5px;
+		background-color: white;
+		span {
+			width: 75%;
+			display: block;
+			padding: 0 0 0 2%;
+		}
+	}
+}
+
+#nametab { width: 100%;
+		height: auto;
+		display: block;
+		padding: 10px 2% 0 2%; }
+
+#chatBoard .chatbtns a { color: rgb(0,64,128);
+	width: 33.3333%;
+	height: 36px;
+	display: inline-block;
+	padding: 5px 0 0 10px;
+	margin-right: 4px; }
